@@ -1,0 +1,23 @@
+administer student entity:
+  title: 'Administer student entity settings'
+  restrict access: true
+delete student entity:
+  title: Delete student entity
+create student entity:
+  title: Create student entity
+view student entity:
+  title: View student entity
+edit student entity:
+  title: Edit student entity
+
+administer result entity:
+  title: 'Administer result entity settings'
+  restrict access: true
+delete result entity:
+  title: Delete result entity
+create result entity:
+  title: Create result entity
+view result entity:
+  title: View result entity
+edit result entity:
+  title: Edit result entity

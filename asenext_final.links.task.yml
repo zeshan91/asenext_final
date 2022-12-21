@@ -1,0 +1,45 @@
+entity.student_entity.settings:
+  title: 'Settings'
+  route_name: entity.student_entity.settings
+  base_route: entity.student_entity.settings
+entity.student_entity.view:
+  title: 'View'
+  route_name: entity.student_entity.canonical
+  base_route: entity.student_entity.canonical
+entity.student_entity.edit_form:
+  title: 'Edit'
+  route_name: entity.student_entity.edit_form
+  base_route: entity.student_entity.canonical
+entity.student_entity.delete_form:
+  title: 'Delete'
+  route_name: entity.student_entity.delete_form
+  base_route: entity.student_entity.canonical
+  weight: 10
+entity.student_entity.collection:
+  title: 'Student Entities'
+  route_name: entity.student_entity.collection
+  base_route: system.admin_content
+  weight: 10
+
+entity.result_entity.settings:
+  title: 'Settings'
+  route_name: entity.result_entity.settings
+  base_route: entity.result_entity.settings
+entity.result_entity.view:
+  title: 'View'
+  route_name: entity.result_entity.canonical
+  base_route: entity.result_entity.canonical
+entity.result_entity.edit_form:
+  title: 'Edit'
+  route_name: entity.result_entity.edit_form
+  base_route: entity.result_entity.canonical
+entity.result_entity.delete_form:
+  title: 'Delete'
+  route_name: entity.result_entity.delete_form
+  base_route: entity.result_entity.canonical
+  weight: 10
+entity.result_entity.collection:
+  title: 'Result Entities'
+  route_name: entity.result_entity.collection
+  base_route: system.admin_content
+  weight: 10

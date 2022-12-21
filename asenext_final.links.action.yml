@@ -1,0 +1,23 @@
+student_entity.add_form:
+  title: 'Add Student'
+  route_name: entity.student_entity.add_form
+  appears_on:
+    - entity.student_entity.collection
+
+result_entity.add_form:
+  title: 'Add Result'
+  route_name: entity.result_entity.add_form
+  appears_on:
+    - entity.result_entity.collection
+
+student_entity.import_form:
+  title: 'Import Students'
+  route_name: asenext_final.import_student
+  appears_on:
+    - entity.student_entity.collection
+
+result_entity.import_form:
+  title: 'Import Results'
+  route_name: asenext_final.import_result
+  appears_on:
+    - entity.result_entity.collection

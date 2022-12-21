@@ -1,0 +1,4 @@
+services:
+  asenext_final.csv_helper:
+    class: Drupal\asenext_final\CsvHelper
+    arguments: ['@stream_wrapper_manager']

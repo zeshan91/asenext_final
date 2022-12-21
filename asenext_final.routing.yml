@@ -1,0 +1,31 @@
+entity.student_entity.settings:
+  path: 'admin/structure/student-entity'
+  defaults:
+    _form: '\Drupal\asenext_final\Form\StudentEntitySettingsForm'
+    _title: 'Student Entity'
+  requirements:
+    _permission: 'administer student entity'
+
+entity.result_entity.settings:
+  path: 'admin/structure/result-entity'
+  defaults:
+    _form: '\Drupal\asenext_final\Form\ResultEntitySettingsForm'
+    _title: 'Result Entity'
+  requirements:
+    _permission: 'administer result entity'
+
+asenext_final.import_student:
+  path: '/asenext-final/import-student'
+  defaults:
+    _title: 'Import student'
+    _form: 'Drupal\asenext_final\Form\ImportStudentForm'
+  requirements:
+    _permission: 'import student entity'
+
+asenext_final.import_result:
+  path: '/asenext-final/import-result'
+  defaults:
+    _title: 'Import result'
+    _form: 'Drupal\asenext_final\Form\ImportResultForm'
+  requirements:
+    _permission: 'import result entity'

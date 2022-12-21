@@ -1,0 +1,21 @@
+entity.student_entity.settings:
+  title: 'Student Entity'
+  description: 'Configure a Student Entity entity type.'
+  route_name:  entity.student_entity.settings
+  parent: system.admin_structure
+entity.student_entity.collection:
+  title: 'Student Entities'
+  description: 'List of student entities.'
+  route_name: entity.student_entity.collection
+  parent: system.admin_content
+
+entity.result_entity.settings:
+  title: 'Result Entity'
+  description: 'Configure a Result Entity entity type.'
+  route_name:  entity.result_entity.settings
+  parent: system.admin_structure
+entity.result_entity.collection:
+  title: 'Result Entities'
+  description: 'List of result entities.'
+  route_name: entity.result_entity.collection
+  parent: system.admin_content
